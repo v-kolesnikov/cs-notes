@@ -12,7 +12,7 @@ str.bytes
 # => ["1001000", "1101001"] # String representation of bytes in base 2.
 
 "Hi".bytes.map { |b| b.to_s(2).rjust(8, '0') }
-# => ["01001000", "01101001"] # The same bu but justified to be lenght of 8 with leading zeros.
+# => ["01001000", "01101001"] # The same but justified to be lenght of 8 with leading zeros.
 
 "Hi".bytes.map { |b| b.to_s(16) }
 # => ["48", "69"] # Hex (base 16) representation of bytes
@@ -31,3 +31,4 @@ str.bytes
 # ASCII table encodes 256 symbols.
 # In base 10 codes could have lenght of 1 (1,2,...,9), 2 (10,11,...,99) and 3 (100,101,...,255).
 # In hex format codes are 1 or two symbols lenght only: 0,1,...,9,0A,0B,...,FF.
+# See ascii.txt for details.
