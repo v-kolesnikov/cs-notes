@@ -59,3 +59,13 @@ str.bytes.map { |b| b.to_s(16) } == str.unpack('H2H2')
 # => true
 str.unpack('H2H2')
 # => ["48", "69"] # Hex (base 16) representation of bytes
+
+# Check the current machine endianness
+
+# I - is current machine byte order
+# N - is big-endian byte order
+if [1].pack("I") == [1].pack("N")
+  puts "BigEndian"
+else
+  puts "LittleEndian"
+end

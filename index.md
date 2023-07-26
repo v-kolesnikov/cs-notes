@@ -74,3 +74,4 @@ There is common standard in modern computers called ASCII table. ASCII is Americ
 ## References
 
 - https://mcilloni.ovh/2023/07/23/unicode-is-hard/
+- https://www.davidegrayson.com/presentations/20140507-binary-data-ruby/binary-data-ruby.pdf
