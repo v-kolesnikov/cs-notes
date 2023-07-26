@@ -65,6 +65,10 @@ This example is quite common in modern computers but it is not a only way to rep
 1 1 1 1 1 1 1 1 - the last byte figured out that way
 ```
 
+## ASCII table
+
+There is common standard in modern computers called ASCII table. ASCII is American Standard Code for Information Interchange. Literally ASCII is an alphabet for computers.
+
 ---
 
 ## References
